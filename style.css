@@ -5,7 +5,7 @@ body{
 }
 .nav-logo{
     width: 225px;
-height: 31px;
+    height: 31px;
 }
 
 
@@ -95,6 +95,10 @@ color:#FD4766;
     background-color: #ddd;
     border-radius: 10px;
 }
+.woman-jacket .jacket-img{
+    background-color: #ddd;
+    border-radius: 10px;
+}
 .jacket .jacket-sell .price span{
     font-weight: 900;
     font-size: 36px;
@@ -113,14 +117,15 @@ color:#FD4766;
 .jacket-sell .product-sell a span{
     margin-right: 5px;
 }
-.man-titile{
+.man-title{
 text-transform: uppercase;
 font-weight: bold;
 }
-
 .Woman-jacket{
-   padding:100px;
-}
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+
 
 
 .services .single-services{
@@ -144,7 +149,7 @@ footer p{
     color:#757575;
     padding:20px 20px;
 }
-@media (max-width:767px) {
+@media (max-width:992px) {
     .menu-navbar-nav{
         text-align: center;
         background-color: rgba(18, 18, 73, 0.39);
