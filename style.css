@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.nav-logo{
+    width: 225px;
+height: 31px;
+}
+
+
+.header-wrapper .nav-item{
+    margin:10px 15px;
+}
+.header-wrapper .nav-item .nav-link{
+   color: black;
+    font-weight: 600;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    
+}
+.header-wrapper .nav-item .nav-link:hover{
+    color:#FD4766;
+}
+.header-wrapper .nav-item .nav-link::after{
+content: '';
+position: absolute;
+width:0;
+left: 0;
+bottom: 0;
+height: 2px;
+background-color: #FD4766;
+transition: all .3s ease-in;
+color:#FD4766;
+
+}
+.header-wrapper .nav-item .nav-link .active::after,
+.header-wrapper .nav-item .nav-link:hover::after{
+width:100%;
+color:#FD4766;
+}
+.left-site{
+    padding:100px 0px 100px 0;
+}
+.left-site h1 span{
+    color: #FABE4C;
+
+}
+.left-site h1 {
+    font-size: 45px;
+    line-height: 57px;
+    font-weight: 700;
+    width: 416px;
+    height: 192px;
+    text-transform: uppercase;
+}
+.left-site p{
+    margin-top:-80px
+}
+
+.left-site .benner-btn a{
+    width: 170px;
+    text-decoration: none;
+    height: 60px;
+    background: linear-gradient(180deg, #5e6b2b 0%, #85A019 100%);
+    color:white;
+    padding:15px 20px;
+    border-radius:10px;
+   transition:all .4s ease-in;
+}
+
+#banner{
+    padding-bottom: 100px;
+}
+.left-site .benner-btn span{
+    margin-right: 5px;
+}
+.jacket{
+    box-shadow: 0 0 20px 0 rgba(107, 107, 107, 0.15);
+    padding:20px;
+    border-radius: 15px;
+    height: 600px;
+    transition: all 0.5s ease-in;
+}
+.jacket:hover{
+    box-shadow: 0 0 20px 0 rgba(107, 107, 107, 0.24);
+}
+
+.Woman-jacket .jacket-img{
+    background-color: #ddd;
+    border-radius: 10px;
+}
+.man-jacket .jacket-img{
+    background-color: #ddd;
+    border-radius: 10px;
+}
+.jacket .jacket-sell .price span{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FABE4C;
+}
+.jacket-sell .product-sell a{
+    width: 170px;
+    text-decoration: none;
+    height: 60px;
+    background: linear-gradient(to right, #414d13d8 0%, #85A019 100%);
+    color:white;
+    padding:15px 20px;
+    border-radius:10px;
+}
+.jacket-sell .product-sell a span{
+    margin-right: 5px;
+}
+.man-titile{
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.Woman-jacket{
+   padding:100px;
+}
+
+
+.services .single-services{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.082);
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding:15px;
+    transition: all 0.5s ease-in;
+}
+.services .single-services:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.239);
+}
+.services .single-services .img-services{
+    width: 78px;
+    height: 82px
+}
+
+footer p{
+    background-color: #091020;
+    text-align: center;
+    color:#757575;
+    padding:20px 20px;
+}
+@media (max-width:767px) {
+    .menu-navbar-nav{
+        text-align: center;
+        background-color: rgba(18, 18, 73, 0.39);
+        color:white;
+        padding-bottom: 15px;
+    }
+}
